@@ -1,0 +1,22 @@
+{
+  "name": "gulp-md5-version",
+  "version": "1.0.0",
+  "description": "gulp-md5-version",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "email": "huwenxiang407@163.com",
+  "keywords": [
+    "gulp",
+    "gulp-md5",
+    "gulp-version"
+  ],
+  "author": "wenxiang.hu",
+  "license": "ISC",
+  "dependencies": {
+    "glob": "^7.0.5",
+    "gulp-util": "^3.0.7",
+    "through2": "^2.0.1"
+  }
+}
