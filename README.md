@@ -28,25 +28,25 @@ will create a versions.mapping
 ### md5(config)
 
 #### config.hashLength
-Type: `String`
+Type: `String` 
 Default: 32
 
 Optionnal: you can pass the size to limit the size of the hash that is appended.
 
 #### config.pattern
-Type: `String`
+Type: `String` 
 Default: @
 
 Optionnal: Hash connector
 
 #### config.versionName
-Type: `String`
+Type: `String` 
 Default: versions.mapping
 
 Optionnal: version file name
 
 #### config.versionPath
-Type: `String`
+Type: `String` 
 Default: prd/
 
 Optionnal: version root path
