@@ -12,6 +12,7 @@
     "gulp-md5",
     "gulp-version"
   ],
+  "homepage": "https://github.com/Tigerwen/gulp-md5-version",
   "author": "wenxiang.hu",
   "license": "ISC",
   "dependencies": {
