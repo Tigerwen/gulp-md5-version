@@ -61,7 +61,7 @@ module.exports = function (config) {
         }).join('.');
 
         file.path = path.join(dir, md5_filename);
-        versionContent.push(relativePathName + '#' + md5_filename);
+        versionContent.push(relativePathName + '#' + hash);
         this.push(file);
         cb();
     }, function (cb) {
