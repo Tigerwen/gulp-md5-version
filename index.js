@@ -17,7 +17,7 @@ var path = require('path'),
     gutil = require('gulp-util'),
     through = require('through2'),
     crypto = require('crypto'),
-    fs = require('fs');
+    fs = require('fs-extra');
 
 const defaultConfig = {
     pattern: '@',
@@ -65,7 +65,7 @@ module.exports = function (config) {
         this.push(file);
         cb();
     }, function (cb) {
-        fs.writeFileSync(versionName, versionContent.join('\n'), 'utf-8')
+        fs.outputFile(versionName, versionContent.join('\n'), 'utf-8')
         cb();
     });
 };
