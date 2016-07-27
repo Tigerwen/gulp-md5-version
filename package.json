@@ -1,6 +1,6 @@
 {
   "name": "gulp-md5-version",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "gulp-md5-version",
   "main": "index.js",
   "scripts": {
@@ -13,6 +13,10 @@
     "gulp-version"
   ],
   "homepage": "https://github.com/Tigerwen/gulp-md5-version",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Tigerwen/gulp-md5-version.git"
+  },
   "author": "wenxiang.hu",
   "license": "ISC",
   "dependencies": {

@@ -1,6 +1,6 @@
-# gulp-md5-plus
+# gulp-md5-version
 
-> md5 plugin for [gulp](https://github.com/wpfpizicai/gulp-md5-plus) ,md5 the static files and then create a versonMapping file.
+> md5 plugin for [gulp](https://github.com/Tigerwen/gulp-md5-version) ,md5 the static files and then create a versonMapping file.
 
 ## Usage
 
